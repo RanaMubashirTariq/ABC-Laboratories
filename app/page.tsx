@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="flex items-center flex-col min-h-[calc(100vh-4rem)] w-full ">
       {/* Hero Section */}
-      <section className="flex items-center justify-center relative py-20  max-[1100px]:py-15  max-[1000px]:px-[25px] max-[800px]:py-10 overflow-hidden bg-gradient-to-b from-background to-secondary/20 w-full">
+      <section className="flex items-center justify-center relative py-20  max-[1000px]:py-10 max-[1300px]:px-[50px]  max-[1000px]:px-[25px] max-[800px]:py-10 overflow-hidden bg-gradient-to-b from-background to-secondary/20 w-full">
         <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-30">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://images.pexels.com/photos/954585/pexels-photo-954585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-center"></div>
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 max-[800px]:py-10 bg-background max-[1100px]:px-[50px] max-[1000px]:px-[25px]">
+      <section className="py-16 max-[800px]:py-10 bg-background max-[1300px]:px-[50px] max-[1000px]:px-[25px]">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-[28px] md:text-[36px] lg:text-5xl font-bold mb-4">Key Features</h2>
@@ -102,7 +102,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 max-[800px]:py-10 bg-secondary/20 max-[1100px]:px-[50px] max-[1000px]:px-[25px]">
+      <section className="py-16 max-[800px]:py-10 bg-secondary/20 max-[1300px]:px-[50px] max-[1000px]:px-[25px]">
         <div className="container">
           <div className="bg-card rounded-2xl shadow-lg overflow-hidden">
             <div className="grid  lg:grid-cols-2 gap-10 items-center">
@@ -133,7 +133,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials/Info Section */}
-      <section className="py-16 max-[800px]:py-10 bg-background max-[1100px]:px-[50px] max-[1000px]:px-[25px]">
+      <section className="py-16 max-[800px]:py-10 bg-background max-[1300px]:px-[50px] max-[1000px]:px-[25px]">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-[28px] md:text-4xl lg:text-5xl font-bold mb-4">Who Can Benefit</h2>
